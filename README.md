@@ -4,4 +4,10 @@ exercise of file encryption -> https://qiita.com/ikeisuke/items/d7ee904d23745c75
 
 ## notice
 `SALT_FIXED` must be hex string.
+
 so, use hex value like this `openssl rand -hex 8`.
+
+```
+PASS_FIXED='pass:<your-passphrase>'
+SALT_FIXED='ebdddd19765aa951'
+```
